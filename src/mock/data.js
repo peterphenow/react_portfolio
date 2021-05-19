@@ -41,30 +41,32 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'projectPics/hiddenGems.png',
+    title: 'Hidden Gems',
+    info: 'This is another project where I collaborated with 4 other developers.  We wanted to create a fully-functional application using all the skills we had learned up to this point.',
+    info2:
+      "Our project, Hidden Gems, is a Google Maps API-powered application, utilizing a MYSQL database in conjunction with Sequelize, that lets the user store locations on a map of places they loved visiting before the pandemic lockdowns, as reminders to visit them again or to share their experience with other users encouraging them to visit. When the user clicks anywhere on the map, a pop up window appears and lets them enter information about the location. After submitting their location, the marker's data and location is written into the database for future use and for others to see.",
+    url: 'https://hidden-gems1.herokuapp.com/',
+    repo: 'https://github.com/peterphenow/Hidden-Gems', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'projectPics/eat-da-burger.png',
+    title: 'Eat-Da-Burger!',
+    info: 'I created this app to learn more about what ORM(Object-Relational Mapping) is and how it works. In this project, I created a homemade ORM to simplify the SQL statement functions. In this app, the user can add a burger, devour it, and delete the burger while the burger moves to different sections of the app.',
+    info2: 'I also used MySQL, Node, Express.js, and Handlebars to complete this app.',
+    url: 'https://eat-da-burger-pp.herokuapp.com/',
+    repo: 'https://github.com/peterphenow/Eat-Da-Burger', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'projectPics/realmRoller.png',
+    title: 'Realm Roller',
+    info: 'I collaborated with 4 other developers on this project. We utilized multiple APIs to create a one-stop shop for everything a D&D Master might need to run a successful campaign.',
+    info2:
+      'It includes a name generator for NPCs(Non-Player Characters), a dice-roller, a notes field, image upload, and a spell lookup.',
+    url: 'https://peterphenow.github.io/RealmRoller/',
+    repo: 'https://github.com/peterphenow/RealmRoller', // if no repo, the button will not show up
   },
 ];
 
