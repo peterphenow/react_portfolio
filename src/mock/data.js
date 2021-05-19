@@ -25,12 +25,20 @@ export const aboutData = {
     from start to finish and demo it to a group of industry professionals with positive reviews.`,
   paragraphThree: `I enjoy collaborating and working on a diverse team while solving problems. Looking
     to bring my knowledge and technical skills to an organization while focusing on continuous learning.`,
-  resume:
-    'https://docs.google.com/document/d/1rz1dGKAQeaOQc6Mn3oCUK7bMIODQZIcQ9BBk7SYH8lM/edit?usp=sharing', // if no resume, the button will not show up
+  resume: 'Peter - WebDev Resume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'projectPics/covid-tracker.png',
+    title: 'COVID Tracker',
+    info: 'I collaborated on this project with 4 other developers. We wanted to make an app with reliable COVID-19 information where users could visit and see all kinds of different data. Users can sign up and log in to get access to even more data.',
+    info2: 'This app was built with the MERN stack.',
+    url: 'https://covid-19-tracker-pcp.herokuapp.com/',
+    repo: 'https://github.com/peterphenow/Covid_19_Tracker', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'project.jpg',
