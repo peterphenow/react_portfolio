@@ -72,9 +72,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Want to reach out to me? Great!',
+  btn: 'Contact Me',
+  email: 'peter.phenow@gmail.com',
 };
 
 // FOOTER DATA
