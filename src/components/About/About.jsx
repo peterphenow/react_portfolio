@@ -57,7 +57,7 @@ const About = () => {
                       href={resume}
                       download="Peter Phenow Resume"
                     >
-                      Resume
+                      Resumé
                     </a>
                   </span>
                 )}
