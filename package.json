@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "peter-phenow-portfolio",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Peter Phenow's web dev portfolio.",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
